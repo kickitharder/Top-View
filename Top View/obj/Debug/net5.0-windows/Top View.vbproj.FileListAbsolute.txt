@@ -1,0 +1,25 @@
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\Top View.exe
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\Top View.deps.json
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\Top View.runtimeconfig.json
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\Top View.runtimeconfig.dev.json
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\Top View.dll
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\ref\Top View.dll
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\Top View.pdb
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\AForge.dll
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\AForge.Video.DirectShow.dll
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\AForge.Video.dll
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\AForge.xml
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\AForge.Video.xml
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\AForge.Video.DirectShow.xml
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.vbproj.AssemblyReference.cache
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Webcam_On_Top.Form1.resources
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.vbproj.GenerateResource.cache
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.GeneratedMSBuildEditorConfig.editorconfig
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.AssemblyInfoInputs.cache
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.AssemblyInfo.vb
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.vbproj.CoreCompileInputs.cache
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.vbproj.CopyComplete
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.dll
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\ref\Top View.dll
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.pdb
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.genruntimeconfig.cache
