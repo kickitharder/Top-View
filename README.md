@@ -8,4 +8,5 @@ This is a simple webcam viewer for my observatory.  Here are it's features:
 4)  The Top View window can be minimised and closed in the usual way.
 
 Keith Rickard
+
 29 November 2023
