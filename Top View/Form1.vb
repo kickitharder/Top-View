@@ -1,14 +1,16 @@
 ﻿Imports AForge
-Imports AForge.Video
-Imports AForge.Video.DirectShow
+'Imports AForge.Video
+'Imports AForge.Video.DirectShow
+Imports Accord.Video
+Imports Accord.Video.DirectShow
+
 
 Public Class Form1
-    Dim FormName = "Top View (231129)"
+    Dim FormName = "Top View (231202)"
     Dim Camera As VideoCaptureDevice
     Dim CamNo As Integer = -1
-    Dim FrameRate As Integer = 1
+    Dim FrameCount As Integer = 20
     'Dim VideoCaptureDevice As VideoCaptureDevice
-    Dim Bmp As Bitmap
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Startup()
@@ -29,7 +31,7 @@ Public Class Form1
                 Camera = New VideoCaptureDevice(videoDevices(CamNo).MonikerString)
                 AddHandler Camera.NewFrame, New NewFrameEventHandler(AddressOf Captured)
                 Camera.Start()
-                FrameRate = 1
+                FrameCount = 10
             Catch ex As Exception
                 MsgBox("Unable to activate camera:" + vbCr + vbCr + videoDevices(CamNo).MonikerString)
             End Try
@@ -40,17 +42,23 @@ Public Class Form1
 
     Private Sub Captured(ByVal sender As Object, ByVal eventArgs As NewFrameEventArgs)
         If Not Me.Visible Then Exit Sub
-        FrameRate -= 1
-        If FrameRate Then Exit Sub
         Me.TopMost = (Me.Height = 184)
-        PbxView.Image = DirectCast(eventArgs.Frame.Clone(), Bitmap)
+
+        PbxView.Image = eventArgs.Frame.Clone
         PbxView.SizeMode = PictureBoxSizeMode.StretchImage
-        FrameRate = 1
+        'Bmp = Img
+        'PbxView.Image = DirectCast(eventArgs.Frame.Clone(), Bitmap)
+        FrameCount -= 1
+        If FrameCount = 0 Then
+            System.GC.Collect()
+            GC.WaitForPendingFinalizers()
+            FrameCount = 10
+        End If
     End Sub
 
     'eventArgs.Frame.Dispose()
     'Bmp = DirectCast(eventArgs.Frame.Clone(), Bitmap)
-    'PictureBox1.Image = DirectCast(eventArgs.Frame.Clone(), Bitmap)
+    'PbxView.Image = DirectCast(eventArgs.Frame.Clone(), Bitmap)
 
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         StopCamera()
@@ -78,4 +86,5 @@ Public Class Form1
         End If
         Me.Visible = True
     End Sub
+
 End Class

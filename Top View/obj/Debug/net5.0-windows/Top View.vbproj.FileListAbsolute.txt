@@ -23,3 +23,8 @@ D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-wind
 D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\ref\Top View.dll
 D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.pdb
 D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Top View.genruntimeconfig.cache
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\Accord.Video.DirectShow.dll
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\Accord.Video.dll
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\Accord.Video.xml
+D:\Google Drive\Development\Repositories\Top View\Top View\bin\Debug\net5.0-windows\Accord.Video.DirectShow.xml
+D:\Google Drive\Development\Repositories\Top View\Top View\obj\Debug\net5.0-windows\Webcam_On_Top.Resources.resources

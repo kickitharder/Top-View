@@ -8,12 +8,30 @@
     ".NETCoreApp,Version=v5.0": {
       "Top View/1.0.0": {
         "dependencies": {
+          "Accord.Video.DirectShow": "3.8.0.0",
+          "Accord.Video": "3.8.0.0",
           "AForge": "2.2.5.0",
           "AForge.Video.DirectShow": "2.2.5.0",
           "AForge.Video": "2.2.5.0"
         },
         "runtime": {
           "Top View.dll": {}
+        }
+      },
+      "Accord.Video.DirectShow/3.8.0.0": {
+        "runtime": {
+          "Accord.Video.DirectShow.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.Video/3.8.0.0": {
+        "runtime": {
+          "Accord.Video.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
         }
       },
       "AForge/2.2.5.0": {
@@ -45,6 +63,16 @@
   "libraries": {
     "Top View/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accord.Video.DirectShow/3.8.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accord.Video/3.8.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
